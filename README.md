@@ -30,3 +30,20 @@ O projeto segue o padrão de organização modular para facilitar a manutenção
    pip install flask
 
 English
+
+This project is a REST API developed with Python and the Flask framework to manage a book collection. The system allows performing all fundamental CRUD operations (Create, Read, Update, Delete) with data persistence in JSON files.
+​🚀 Features
+​Create Books: POST route that receives data and generates an automatic ID for the new record.
+​List Collection: GET route to view all registered books or a specific title by ID.
+​Update Data: PUT route that allows editing information for existing books.
+​Delete Books: DELETE route to permanently remove records from the data file.
+​🛠️ Technologies / Tecnologias
+​Python 3.x
+​Flask
+​JSON (Persistence/Persistência)
+​Insomnia (API Testing/Testes)
+​📁 Structure / Estrutura
+​app.py: Entry point and route configuration / Ponto de entrada e configuração de rotas.
+​controllers/: Business logic and data handling / Lógica de negócio e manipulação de dados.
+​data/: Storage (book.json) / Armazenamento (book.json).
+​Developed by Pandoro Gama – Designer & Software Engineering Student.
