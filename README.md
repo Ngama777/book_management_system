@@ -1,5 +1,5 @@
 # Book Management System 📖
-Portugês | English
+[Portugês](#português) | [English](#english)
 
 Português
 Um sistema de gerenciamento de livros desenvolvido com *Python* e o framework *Flask*. O projeto foca na implementação de uma API REST completa com operações CRUD, utilizando uma arquitetura organizada com Controllers e persistência de dados em arquivos JSON.
